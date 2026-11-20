@@ -159,3 +159,6 @@ h3{font-size:1.2rem}
   .steps{grid-template-columns:1fr;gap:32px}
   .float{display:flex}
 }
+
+/* Justified paragraphs (straight left and right edges, like MS Word) */
+.lead,.about p,.rows p,.steps p,.faq p{text-align:justify;text-justify:inter-word;hyphens:auto;-webkit-hyphens:auto}
